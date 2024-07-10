@@ -1,0 +1,218 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d4d06/fast && /usr/bin/make -f CMakeFiles/cmTC_d4d06.dir/build.make CMakeFiles/cmTC_d4d06.dir/build
+make[1]: Entering directory '/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4d06.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTC_d4d06.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d4d06
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4d06.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=sgemm_    -rdynamic CMakeFiles/cmTC_d4d06.dir/CheckFunctionExists.c.o  -o cmTC_d4d06 
+/usr/bin/ld: CMakeFiles/cmTC_d4d06.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_d4d06.dir/build.make:87: cmTC_d4d06] Error 1
+make[1]: Leaving directory '/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d4d06/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_36315/fast && /usr/bin/make -f CMakeFiles/cmTC_36315.dir/build.make CMakeFiles/cmTC_36315.dir/build
+make[1]: Entering directory '/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36315.dir/src.c.o
+/usr/bin/gcc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_36315.dir/src.c.o   -c /home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_36315
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36315.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_36315.dir/src.c.o  -o cmTC_36315 
+/usr/bin/ld: CMakeFiles/cmTC_36315.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_36315.dir/build.make:87: cmTC_36315] Error 1
+make[1]: Leaving directory '/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_36315/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_78372/fast && /usr/bin/make -f CMakeFiles/cmTC_78372.dir/build.make CMakeFiles/cmTC_78372.dir/build
+make[1]: Entering directory '/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78372.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_78372.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_78372
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78372.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_78372.dir/CheckFunctionExists.c.o  -o cmTC_78372  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_78372.dir/build.make:87: cmTC_78372] Error 1
+make[1]: Leaving directory '/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_78372/fast] Error 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d43b6/fast && /usr/bin/make -f CMakeFiles/cmTC_d43b6.dir/build.make CMakeFiles/cmTC_d43b6.dir/build
+make[1]: Entering directory '/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d43b6.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTC_d43b6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d43b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d43b6.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=cheev_    -rdynamic CMakeFiles/cmTC_d43b6.dir/CheckFunctionExists.c.o  -o cmTC_d43b6  /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so 
+/usr/bin/ld: CMakeFiles/cmTC_d43b6.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_d43b6.dir/build.make:89: cmTC_d43b6] Error 1
+make[1]: Leaving directory '/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_d43b6/fast] Error 2
+
+
+
+Determining if the cholmod_metis exist failed with the following output:
+Change Dir: /home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_96edb/fast && /usr/bin/make -f CMakeFiles/cmTC_96edb.dir/build.make CMakeFiles/cmTC_96edb.dir/build
+make[1]: Entering directory '/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_96edb.dir/CheckSymbolExists.c.o
+/usr/bin/gcc  -isystem /usr/include/suitesparse   -o CMakeFiles/cmTC_96edb.dir/CheckSymbolExists.c.o   -c /home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_96edb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96edb.dir/link.txt --verbose=1
+/usr/bin/gcc      -rdynamic CMakeFiles/cmTC_96edb.dir/CheckSymbolExists.c.o  -o cmTC_96edb  /usr/lib/x86_64-linux-gnu/libcholmod.so /usr/local/lib/libmetis.a /usr/lib/x86_64-linux-gnu/libamd.so /usr/lib/x86_64-linux-gnu/libcamd.so /usr/lib/x86_64-linux-gnu/libccolamd.so /usr/lib/x86_64-linux-gnu/libcolamd.so /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so -lrt /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so /usr/lib/x86_64-linux-gnu/liblapack.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so /usr/lib/x86_64-linux-gnu/liblapack.so 
+/usr/bin/ld: /usr/local/lib/libmetis.a(gklib.c.o): undefined reference to symbol 'sqrtf@@GLIBC_2.2.5'
+/usr/bin/ld: /lib/x86_64-linux-gnu/libm.so.6: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_96edb.dir/build.make:100: cmTC_96edb] Error 1
+make[1]: Leaving directory '/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_96edb/fast] Error 2
+
+
+File /home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <cholmod.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef cholmod_metis
+  return ((int*)(&cholmod_metis))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7e4ee/fast && /usr/bin/make -f CMakeFiles/cmTC_7e4ee.dir/build.make CMakeFiles/cmTC_7e4ee.dir/build
+make[1]: Entering directory '/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7e4ee.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++   -I/usr/include/qt4   -o CMakeFiles/cmTC_7e4ee.dir/CheckSymbolExists.cxx.o -c /home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+    8 |   return ((int*)(&Q_WS_WIN))[argc];
+      |                   ^~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_7e4ee.dir/build.make:66: CMakeFiles/cmTC_7e4ee.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7e4ee/fast] Error 2
+
+
+File /home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8f04a/fast && /usr/bin/make -f CMakeFiles/cmTC_8f04a.dir/build.make CMakeFiles/cmTC_8f04a.dir/build
+make[1]: Entering directory '/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8f04a.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++   -I/usr/include/qt4   -o CMakeFiles/cmTC_8f04a.dir/CheckSymbolExists.cxx.o -c /home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+    8 |   return ((int*)(&Q_WS_QWS))[argc];
+      |                   ^~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_8f04a.dir/build.make:66: CMakeFiles/cmTC_8f04a.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_8f04a/fast] Error 2
+
+
+File /home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f2a51/fast && /usr/bin/make -f CMakeFiles/cmTC_f2a51.dir/build.make CMakeFiles/cmTC_f2a51.dir/build
+make[1]: Entering directory '/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2a51.dir/CheckSymbolExists.cxx.o
+/usr/bin/g++   -I/usr/include/qt4   -o CMakeFiles/cmTC_f2a51.dir/CheckSymbolExists.cxx.o -c /home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+    8 |   return ((int*)(&Q_WS_MAC))[argc];
+      |                   ^~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_f2a51.dir/build.make:66: CMakeFiles/cmTC_f2a51.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_f2a51/fast] Error 2
+
+
+File /home/amir/Robotics/imu_tk/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

@@ -1,0 +1,345 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/home/amir/Robotics/imu_tk/bin/test_imu_calib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/usr/share/cmake-3.16/Modules/UseQt4.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 78,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 85,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 85,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 85,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 89,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 89,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 89,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "GFLAGS_DLL_DECLARE_FLAG="
+				},
+				{
+					"backtrace" : 2,
+					"define" : "GFLAGS_DLL_DEFINE_FLAG="
+				},
+				{
+					"backtrace" : 2,
+					"define" : "GFLAGS_IS_A_DLL=0"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "GOOGLE_GLOG_DLL_DECL="
+				},
+				{
+					"backtrace" : 5,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "QT_OPENGL_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/home/amir/Robotics/imu_tk/./include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/amir/Robotics/imu_tk/build"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/usr/local/include/eigen3"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/usr/include/qt4"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/usr/include/qt4/QtOpenGL"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "/usr/include/qt4/QtGui"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/usr/include/qt4/QtCore"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "imu_tk::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "test_imu_calib::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-rdynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../lib/libimu_tk.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/local/lib/libceres.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lQtOpenGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lQtGui",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lQtCore",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lGL",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lGLU",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lglut",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libglog.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libspqr.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcholmod.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libamd.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcamd.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libccolamd.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcolamd.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtbb.so.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libmetis.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-llapack",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lf77blas",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latlas",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "test_imu_calib",
+	"nameOnDisk" : "test_imu_calib",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "apps/test_imu_calib.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/amir/Robotics/imu_tk/build",
+  "command": "/usr/bin/g++  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -I/home/amir/Robotics/imu_tk/./include -I/home/amir/Robotics/imu_tk/build -isystem /usr/local/include/eigen3 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtCore  -g   -std=gnu++17 -o CMakeFiles/test_integration.dir/apps/test_integration.cpp.o -c /home/amir/Robotics/imu_tk/apps/test_integration.cpp",
+  "file": "/home/amir/Robotics/imu_tk/apps/test_integration.cpp"
+},
+{
+  "directory": "/home/amir/Robotics/imu_tk/build",
+  "command": "/usr/bin/g++  -DGFLAGS_DLL_DECLARE_FLAG=\"\" -DGFLAGS_DLL_DEFINE_FLAG=\"\" -DGFLAGS_IS_A_DLL=0 -DGOOGLE_GLOG_DLL_DECL=\"\" -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -I/home/amir/Robotics/imu_tk/./include -I/home/amir/Robotics/imu_tk/build -isystem /usr/local/include/eigen3 -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtCore  -g   -std=gnu++17 -o CMakeFiles/test_imu_calib.dir/apps/test_imu_calib.cpp.o -c /home/amir/Robotics/imu_tk/apps/test_imu_calib.cpp",
+  "file": "/home/amir/Robotics/imu_tk/apps/test_imu_calib.cpp"
+},
+{
+  "directory": "/home/amir/Robotics/imu_tk/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -I/home/amir/Robotics/imu_tk/./include -I/usr/local/include/eigen3 -I/home/amir/Robotics/imu_tk/build -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtCore  -g   -std=gnu++17 -o CMakeFiles/imu_tk.dir/src/calibration.cpp.o -c /home/amir/Robotics/imu_tk/src/calibration.cpp",
+  "file": "/home/amir/Robotics/imu_tk/src/calibration.cpp"
+},
+{
+  "directory": "/home/amir/Robotics/imu_tk/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -I/home/amir/Robotics/imu_tk/./include -I/usr/local/include/eigen3 -I/home/amir/Robotics/imu_tk/build -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtCore  -g   -std=gnu++17 -o CMakeFiles/imu_tk.dir/src/filters.cpp.o -c /home/amir/Robotics/imu_tk/src/filters.cpp",
+  "file": "/home/amir/Robotics/imu_tk/src/filters.cpp"
+},
+{
+  "directory": "/home/amir/Robotics/imu_tk/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -I/home/amir/Robotics/imu_tk/./include -I/usr/local/include/eigen3 -I/home/amir/Robotics/imu_tk/build -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtCore  -g   -std=gnu++17 -o CMakeFiles/imu_tk.dir/src/io_utils.cpp.o -c /home/amir/Robotics/imu_tk/src/io_utils.cpp",
+  "file": "/home/amir/Robotics/imu_tk/src/io_utils.cpp"
+},
+{
+  "directory": "/home/amir/Robotics/imu_tk/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -I/home/amir/Robotics/imu_tk/./include -I/usr/local/include/eigen3 -I/home/amir/Robotics/imu_tk/build -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtCore  -g   -std=gnu++17 -o CMakeFiles/imu_tk.dir/src/visualization.cpp.o -c /home/amir/Robotics/imu_tk/src/visualization.cpp",
+  "file": "/home/amir/Robotics/imu_tk/src/visualization.cpp"
+},
+{
+  "directory": "/home/amir/Robotics/imu_tk/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -I/home/amir/Robotics/imu_tk/./include -I/usr/local/include/eigen3 -I/home/amir/Robotics/imu_tk/build -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtCore  -g   -std=gnu++17 -o CMakeFiles/imu_tk.dir/include/imu_tk/vis_extra/moc_opengl_3d_scene.cxx.o -c /home/amir/Robotics/imu_tk/build/include/imu_tk/vis_extra/moc_opengl_3d_scene.cxx",
+  "file": "/home/amir/Robotics/imu_tk/build/include/imu_tk/vis_extra/moc_opengl_3d_scene.cxx"
+},
+{
+  "directory": "/home/amir/Robotics/imu_tk/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -I/home/amir/Robotics/imu_tk/./include -I/usr/local/include/eigen3 -I/home/amir/Robotics/imu_tk/build -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtCore  -g   -std=gnu++17 -o CMakeFiles/imu_tk.dir/src/vis_extra/gl_camera.cpp.o -c /home/amir/Robotics/imu_tk/src/vis_extra/gl_camera.cpp",
+  "file": "/home/amir/Robotics/imu_tk/src/vis_extra/gl_camera.cpp"
+},
+{
+  "directory": "/home/amir/Robotics/imu_tk/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_OPENGL_LIB -I/home/amir/Robotics/imu_tk/./include -I/usr/local/include/eigen3 -I/home/amir/Robotics/imu_tk/build -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtOpenGL -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtCore  -g   -std=gnu++17 -o CMakeFiles/imu_tk.dir/src/vis_extra/opengl_3d_scene.cpp.o -c /home/amir/Robotics/imu_tk/src/vis_extra/opengl_3d_scene.cpp",
+  "file": "/home/amir/Robotics/imu_tk/src/vis_extra/opengl_3d_scene.cpp"
+}
+]

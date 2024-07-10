@@ -1,0 +1,77 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "imu_tk",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_tk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_tk-Debug-747ebb248582ab5ec651.json",
+					"name" : "imu_tk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_imu_calib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_imu_calib-Debug-552db4cc991f22285d2c.json",
+					"name" : "test_imu_calib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_integration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_integration-Debug-b6cf7343042436757b41.json",
+					"name" : "test_integration",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/amir/Robotics/imu_tk/build",
+		"source" : "/home/amir/Robotics/imu_tk"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,5 @@
+/home/amir/Robotics/imu_tk/build/CMakeFiles/edit_cache.dir
+/home/amir/Robotics/imu_tk/build/CMakeFiles/rebuild_cache.dir
+/home/amir/Robotics/imu_tk/build/CMakeFiles/test_integration.dir
+/home/amir/Robotics/imu_tk/build/CMakeFiles/test_imu_calib.dir
+/home/amir/Robotics/imu_tk/build/CMakeFiles/imu_tk.dir
